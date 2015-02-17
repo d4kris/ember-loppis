@@ -1,0 +1,17 @@
+<form role="form" class="">
+  <tr>
+    <td>
+      {{input value=seller type="number" id="seller" placeholder="Sälj nr"
+      class="form-control"}}
+    </td>
+    <td>
+      {{input value=price type="number" step="5" placeholder="Pris" class="form-control"}}
+    </td>
+    <td>
+      <button {{action 'add' this}} class="btn btn-success">
+        <i class="glyphicon glyphicon-plus"></i>
+      </button>
+    </td>
+  </tr>
+</form>
+{{outlet}}

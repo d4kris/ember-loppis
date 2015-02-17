@@ -1,0 +1,25 @@
+<div>
+  <h1>Alla köp</h1>
+  <hr>
+</div>
+
+<div>
+
+  {{#each p in model}}
+    <div>
+
+      <h4>
+      {{#link-to 'purchase.items' p}}
+        {{p.total}} kr ({{p.count}})
+      {{/link-to}}
+
+      </h4>
+      <hr>
+    </div>
+  {{/each}}
+
+
+
+</div>
+
+{{outlet}}

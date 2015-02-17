@@ -1,0 +1,15 @@
+<table class="table table-striped">
+  <thead>
+  {{outlet}}
+  </thead>
+  <tbody>
+  {{#each item in items}}
+  <tr class="item">
+    <td>{{item.seller.id}}</td>
+    <td>{{item.price}}</td>
+    <td></td>
+  </tr>
+  {{/each}}
+  </tbody>
+</table>
+

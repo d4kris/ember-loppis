@@ -1,7 +1,7 @@
 {
   "name": "loppis",
   "version": "0.0.0",
-  "description": "Small description for loppis goes here",
+  "description": "An app to track marketplace transactions",
   "private": true,
   "directories": {
     "doc": "doc",
