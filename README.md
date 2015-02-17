@@ -1,7 +1,14 @@
 # Loppis
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+The app is a simple experiment with ember, trying to aid people selling stuff co-op style. 
+
+* All sold items have a seller id and a price.
+* People pick what they want and the cashier use the app to register all items, 
+making it easy to see how much each customer needs to pay and check history.
+* At the end of the day, each seller can see how much was sold and tick when they get paid 
+
+# The following outlines the details of collaborating on this Ember application.
+ 
 
 ## Prerequisites
 
